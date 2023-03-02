@@ -1,0 +1,31 @@
+div {
+  display: grid;
+  grid-template:
+  "titre titre titre"
+  "personnes messages messages"
+  "personnes formulaire formulaire"
+}
+
+app-en-tete{
+  text-align: center;
+  border: solid;
+  grid-area: titre;
+}
+
+app-en-bloc1{
+  border: solid;
+  grid-area: personnes;
+}
+
+app-en-bloc2{
+  display
+  text-align: center;
+  border: solid;
+  grid-area: messages;
+}
+
+app-en-bloc3{
+  text-align: center;
+  border: solid;
+  grid-area: formulaire;
+}
