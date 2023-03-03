@@ -1,2 +1,7 @@
 <H3>Personnes actives: </H3>
 
+<ol>
+  <li *ngFor="let personne of personnes">
+    {{personne.prenom}} - {{personne.nom}}
+  </li>
+</ol>

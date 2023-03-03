@@ -1,3 +1,6 @@
-<div>
-<app-textarea></app-textarea>
-</div>
+
+<ul>
+<ol *ngFor="let message of messages">
+  <app-textarea [auteur]="message.auteur" [note]="message.note" [date]="message.date"></app-textarea>
+</ol>
+</ul>

@@ -18,8 +18,9 @@ app-en-bloc1{
 }
 
 app-en-bloc2{
-  display
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: solid;
   grid-area: messages;
 }

@@ -7,7 +7,7 @@ import { EnBloc1Component } from './en-bloc1/en-bloc1.component';
 import { EnBloc2Component } from './en-bloc2/en-bloc2.component';
 import { EnBloc3Component } from './en-bloc3/en-bloc3.component';
 import { TextareaComponent } from './textarea/textarea.component';
-import { NouveauMessageComponent } from './nouveau-message/nouveau-message.component';
+import {NouveauMessageComponent} from "./nouveau-message/nouveau-message.component";
 
 
 @NgModule({
